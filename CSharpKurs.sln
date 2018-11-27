@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello", "Hello\Hello.csproj", "{417F000F-F92B-4938-A5ED-AC44C1F61177}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentDiary", "StudentDiary\StudentDiary.csproj", "{05558058-E22D-406E-87BA-B5DF3CA46A51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{417F000F-F92B-4938-A5ED-AC44C1F61177}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{417F000F-F92B-4938-A5ED-AC44C1F61177}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{417F000F-F92B-4938-A5ED-AC44C1F61177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05558058-E22D-406E-87BA-B5DF3CA46A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05558058-E22D-406E-87BA-B5DF3CA46A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05558058-E22D-406E-87BA-B5DF3CA46A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05558058-E22D-406E-87BA-B5DF3CA46A51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9013CEA5-4DB1-46D2-A105-0033FF2B0FB3}
 	EndGlobalSection
 EndGlobal
